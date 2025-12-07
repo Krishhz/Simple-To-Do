@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Simple To-Do App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="todo-container">
+      
+      <!-- Header -->
+      <div class="todo-header">
+        <h2>To-Do List</h2>
+        <img src="note.png" alt="To-Do Icon" />
+      </div>
+
+      <!-- Input field and Add Button -->
+      <div class="todo-input">
+        <input type="text" id="taskInput" placeholder="Enter a task" />
+        <button id="addBtn">Add</button>
+      </div>
+
+      <!-- Task List -->
+      <ul id="taskList">
+        <!-- Example tasks -->
+        <!-- <li class="task-item">
+          <span class="task-text">Learn JavaScript</span>
+          <div class="task-actions">
+            <button class="delete">Delete</button>
+          </div>
+        </li> -->
+      </ul>
+
+      <!-- line -->
+      <hr class="line" />
+
+      <!-- Clear All Section -->
+      <div class="allDelete">
+        <p>clear all</p>
+        <button id="allClear">
+          <img src="icons8-trash-can.svg" alt="trash" />
+        </button>
+      </div>
+      
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
